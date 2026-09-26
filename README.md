@@ -16,7 +16,7 @@ Aplikasi Sistem Informasi Tambang berbasis web yang dibangun menggunakan framewo
 - Laravel (PHP Framework)
 - MySQL / MariaDB
 - Composer
-- Node.js & NPM (untuk asset frontend)
+- Tailwind CDN
 
 ## Persyaratan Sistem
 
@@ -24,7 +24,6 @@ Sebelum menjalankan project ini, pastikan sudah terinstall:
 
 - PHP >= 8.1
 - Composer
-- Node.js & NPM
 - MySQL / MariaDB
 - Git
 
@@ -35,13 +34,13 @@ Ikuti langkah-langkah berikut untuk menjalankan project ini di komputer lokal (l
 ### 1. Clone Repository
 
 ```bash
-git clone https://github.com/username/nama-repo.git
+git clone https://github.com/username/https://github.com/SidiqFatuh187/tugasKEL-ManajemenProyek-IT.git
 ```
 
 Masuk ke folder project:
 
 ```bash
-cd nama-repo
+cd tugasKEL-ManajemenProyek-IT
 ```
 
 ### 2. Install Dependency PHP (Composer)
@@ -93,26 +92,7 @@ Jika ada data awal (seeder):
 ```bash
 php artisan migrate --seed
 ```
-
-### 7. Install Dependency Frontend (NPM)
-
-```bash
-npm install
-```
-
-Compile asset (CSS/JS):
-
-```bash
-npm run dev
-```
-
-atau untuk production:
-
-```bash
-npm run build
-```
-
-### 8. Jalankan Server Laravel
+### 7. Jalankan Server Laravel
 
 ```bash
 php artisan serve
