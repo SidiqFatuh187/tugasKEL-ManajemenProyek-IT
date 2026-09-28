@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BrightBuild - Premium Construction</title>
+    <title>PT Anugerah Bara Mandiri</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -32,7 +32,7 @@
                         <path stroke-linecap="round" stroke-linejoin="round" d="M3 21h18M5 21V7l7-4 7 4v14M9 21v-6h6v6" />
                     </svg>
                 </span>
-                Bright<span class="text-brand-600">Build</span>
+                Anugerah Bara<span class="text-brand-600">Mandiri</span>
             </a>
 
             <ul class="hidden lg:flex items-center gap-8 text-sm font-medium text-slate-600">
